@@ -24,5 +24,19 @@ public class testarrays {
 			
 		}
 	
+		str.add(0, "Green");
+		System.out.println("\n"+str);
+		
+		System.out.println("\n"+str.get(3));
+		
+		System.out.println("\n"+ str.set(1, "Yellow") + str);
+		
+		System.out.println("\n"+str.remove(3) + str);
+		
+		System.out.println("\n"+str.contains("Black"));
+		
+		
+		
+		
 	}
 }
